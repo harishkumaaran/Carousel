@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Carousel</title>
+    <link rel="stylesheet" href="build/build.css">
+</head>
+<body class="m-0 p-0 h-screen flex justify-center items-center">
+    <div class="slider">
+        <div class="slides">
+            <!--radio buttons-->
+            <input type="radio" name="radio-btn" id="radio-1" class="hidden">
+            <input type="radio" name="radio-btn" id="radio-2" class="hidden">
+            <input type="radio" name="radio-btn" id="radio-3" class="hidden">
+            <input type="radio" name="radio-btn" id="radio-4" class="hidden">
+            <!--slides-->
+            <div class="w-1/5 duration-100 first">
+                <img src="img/1.JPG" alt="" class="image">
+            </div>
+            <div class="w-1/5 duration-100">
+                <img src="img/2.JPG" alt="" class="image"">
+            </div>
+            <div class="w-1/5 duration-100">
+                <img src="img/3.jpg" alt="" class="image"">
+            </div>
+            <div class="w-1/5 duration-100">
+                <img src="img/4.jpg" alt="" class="image"">
+            </div>
+        </div>
+        <div class="absolute w-800 mt-0.5 flex justify-center">
+            <label for="radio-1" class="border-2 border-blue-400 border-solid duration-75 p-1 rounded-full cursor-pointer mr-2 hover:bg-blue-400"></label>
+            <label for="radio-2" class="border-2 border-blue-400 border-solid duration-75 p-1 rounded-full cursor-pointer mr-2 hover:bg-blue-400"></label>
+            <label for="radio-3" class="border-2 border-blue-400 border-solid duration-75 p-1 rounded-full cursor-pointer mr-2 hover:bg-blue-400"></label>
+            <label for="radio-4" class="border-2 border-blue-400 border-solid duration-75 p-1 rounded-full cursor-pointer mr-2 hover:bg-blue-400"></label>
+        </div>
+    </div>
+</body>
+</html>

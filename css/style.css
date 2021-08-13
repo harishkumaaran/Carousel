@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    
+    .slider{
+        width: 800px;
+        height: 500px;
+        border-radius:10px;
+        overflow:hidden;
+     }
+    
+     .slides{
+        width: 500%;
+        height: 500px;
+        display: flex;
+     }
+     .image{
+         width:800px;
+         height:500px;
+     }
+     .w-800{
+         width:800px;
+     }
+     #radio-1:checked~ .first{
+         margin-left:0;
+     }
+     #radio-2:checked~ .first{
+        margin-left:-20%;
+    }
+    #radio-3:checked~ .first{
+        margin-left:-40%;
+    }
+    #radio-4:checked~ .first{
+        margin-left:-60%;
+    }
+}
+ 
