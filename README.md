@@ -20,17 +20,3 @@ There is the usage of tailwindcss which has been optimized using the @layer opti
 
 # Credits
 - This carousel is done as a part of my Front end curriculum at Aekam Labs, Coimbatore.
-
-
-
-
-
-
-
-
-
-
-
-
-
-You can view the page at:  Your site is ready to be published at 
